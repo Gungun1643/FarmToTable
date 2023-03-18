@@ -1,0 +1,1422 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Farm to Table</title>
+	<!--meta tags for favicon-->
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+	<link rel="manifest" href="/favicons/site.webmanifest">
+	<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/favicons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-config" content="/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- Required meta tags for bootstrap-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+	<!-- custom css file link -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Link Swiper's CSS -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+	<!-- header section start -->
+	<header>
+		<a href="#" class="logo"><img src="logo.png"></a>
+
+		<nav class="navbar">
+			<a href="#home" class="active">home</a>
+			<a href="#ambience">ambience</a>
+			<a href="#photo_gallery">photos</a>
+			<a href="#this_menu">menu</a>
+			<a href="#gmaps">Dine In</a>
+			<a href="#footer">Make Payment</a>
+		</nav>
+
+		<div class="icons">
+			<i class="fas fa-bars" id="menu"></i>
+		</div>
+	</header>
+	<!-- header section end -->
+
+	<!-- slider section start -->
+	<div class="home" id="home">
+		<div class="swiper home-slider">
+			<div class="swiper-wrapper wrapper">
+				<div class="swiper-slide slide slide1">
+					<div class="content">
+
+						<h3>Welcome to</h3>
+						<h1>Farm to Table</h1>
+						<p>
+							Enjoy delicious veg and non-veg food
+						</p>
+						<a href="#this_menu" class="btn">Go to Menu</a>
+					</div>
+				</div>
+
+				<div class="swiper-slide slide slide2">
+					<div class="content">
+
+						<h3>Value for Money</h3>
+						<h1>Affordable</h1>
+						<p>
+							Guaranteed Satisfaction
+						</p>
+						<a href="#this_menu" class="btn">Go to Menu</a>
+					</div>
+				</div>
+
+				<div class="swiper-slide slide slide3">
+					<div class="content">
+
+						<h3>Come and Try</h3>
+						<h1>Delicious Meals</h1>
+						<p>
+							with a great ambience to match
+						</p>
+						<a href="#this_menu" class="btn">Go to Menu</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="swiper-pagination"></div>
+		</div>
+	</div>
+	<!-- slider section ends -->
+
+	<!-- ambience section start -->
+	<section class="our-team" id="ambience" style="background-color: #e6ddd6;">
+		<h1 class="heading">AMBIENCE</h1>
+		<center>
+			<h3 class="sub-heading">DINE IN LUXURY </h3>
+		</center>
+
+		<div class="our-chef">
+			<div class="item">
+				<div class="image">
+					<div class="videowidth" style="padding-right:20px ;">
+
+						<img src="ambience1.jpg" alt="Ambience1" style="max-width: 100%; max-height: 100%;">
+					</div> <!--videowidth-->
+				</div><!--image-->
+			</div><!--item-->
+
+			<div class="item">
+				<div class="image">
+					<div class="videowidth">
+						<video width="95%" height="auto" muted="" id="video2" onclick="playpause()" class="v" autoplay>
+							<source src="video2.mp4" type="video/mp4">
+						</video>
+						<div id="playpause_img" onclick="playpause()"></div>
+					</div> <!--videowidth-->
+				</div><!--image-->
+			</div><!--item-->
+
+			<div class="item">
+				<div class="image">
+					<div class="videowidth">
+						<img src="ambience2.jpg" alt="Ambience2" style="max-width: 100%; max-height: 100%;">
+						<div id="playpause_img" onclick="playpause()"></div>
+					</div> <!--videowidth-->
+				</div><!--image-->
+			</div><!--item-->
+		</div>
+	</section>
+	<!-- ambience section ends -->
+
+	<!-- photo_gallery section start -->
+	<section class="welcome" id="photo_gallery" style="background-color: #e6ddd6;">
+		<h1 class="heading">Photos</h1>
+		<center>
+			<h3 class="sub-heading">delicacies on display</h3>
+		</center>
+
+		<div class="box-container">
+			<div class="box">
+				<div class="image">
+					<img src="post-thumb-1.jpg">
+				</div>
+
+				<div class="content">
+					<h3>MADE WITH LOVE</h3>
+					<p>Taste the layered flavours of food made with love and passion by our talented chefs. Each bite is
+						full of the care taken to prepare each meal.</p>
+
+					<a href="#this_menu" class="btn">Menu</a>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="image">
+					<img src="post-thumb-2.jpg">
+				</div>
+
+				<div class="content">
+					<h3>DELICIOUS DRINKS</h3>
+					<p>Accompany your meal with a unique and delicious drinks. Try all new varieties of shakes,
+						mocktails, and much more. Refreshing, energizing, flavourful, we've got them all.</p>
+
+					<a href="#gmaps" class="btn">Dine In</a>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="image">
+					<img src="post-thumb-3.jpg">
+				</div>
+
+				<div class="content">
+					<h3>VEG & NON-VEG CUISINES</h3>
+					<p>We serve a wide variety of both veg and non-veg food. With a vast range to chose from, everyone
+						will find something they love in what we serve.</p>
+
+					<a href="#footer" class="btn">Make Payment</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- photo_gallery section ends -->
+
+	<!-- our menu section start -->
+	<section class="our-menu" id="this_menu">
+		<h1 class="heading">our food menu</h1>
+		<center>
+			<h3 class="sub-heading">see what we offer</h3>
+		</center>
+
+		<ul class="nav nav-pills menu-ul">
+			<li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="#soups" data-toggle="pill">Soups</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" aria-current="page" href="#salad" data-toggle="pill">Salad</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" aria-current="page" href="#appetizers" data-toggle="pill">Appetizers</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" aria-current="page" href="#Vol-au-Vent" data-toggle="pill">Vol-au-Vent</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" aria-current="page" href="#Wraps" data-toggle="pill">Wraps</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" aria-current="page" href="#fries" data-toggle="pill">Burger n' Fries</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" aria-current="page" href="#breads" data-toggle="pill">Breads</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" aria-current="page" href="#sandwiches-pasta" data-toggle="pill">Sandwiches and
+					Pasta</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" aria-current="page" href="#pizza-noodles" data-toggle="pill">Pizza and Noodles</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" aria-current="page" href="#sizzlers" data-toggle="pill">Sizzlers</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" aria-current="page" href="#Main-Course" data-toggle="pill">Main Course</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" aria-current="page" href="#rice" data-toggle="pill">Rice</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" aria-current="page" href="#drinks" data-toggle="pill">Beverages</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" aria-current="page" href="#dessert" data-toggle="pill">Desserts and
+					Accompaniments</a>
+			</li>
+
+		</ul>
+
+		<div class="tab-content py 3" id="myTabContent">
+
+			<div class="tab-pane fade show active" id="soups">
+				<div class="menu-container">
+					<div class="item">
+						<div class="item-name">
+							<h2>Veg</h2>
+						</div>
+
+						<div class="item-body">
+							<div class="item-menu">
+								<h3>Manchow Soup</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Hot & Sour Soup</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Tom-Yum Soup</h3>
+								<span class="dots"></span>
+								<h3>₹140</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Lemon Coriander Soup</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Almond Broccoli Soup</h3>
+								<span class="dots"></span>
+								<h3>₹170</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Cream of Tomato Soup</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Burmese Khow Suey</h3>
+								<span class="dots"></span>
+								<h3>₹200</h3>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-name">
+							<h2>Non-Veg</h2>
+						</div>
+
+						<div class="item-body">
+							<div class="item-menu">
+								<h3> Chicken Manchow Soup</h3>
+								<span class="dots"></span>
+								<h3>₹150</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Chicken Hot & Sour Soup</h3>
+								<span class="dots"></span>
+								<h3>₹150</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Chicken Tom-Yum Soup</h3>
+								<span class="dots"></span>
+								<h3>₹160</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Chicken Lemon Coriander Soup</h3>
+								<span class="dots"></span>
+								<h3>₹150</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Spiced Chicken Shorba</h3>
+								<span class="dots"></span>
+								<h3>₹160</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Chicken burmese Khow Suey</h3>
+								<span class="dots"></span>
+								<h3>₹230</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Chicken Almond Broccoli Soup</h3>
+								<span class="dots"></span>
+								<h3>₹200</h3>
+							</div>
+
+							<div class="item-name">
+								<h2>Sea Food</h2>
+							</div>
+
+							<div class="item-body">
+								<div class="item-menu">
+									<h3> Prawns Manchow Soup</h3>
+									<span class="dots"></span>
+									<h3>₹220</h3>
+								</div>
+
+								<div class="item-menu">
+									<h3>Prawns Hot & Sour Soup</h3>
+									<span class="dots"></span>
+									<h3>₹210</h3>
+								</div>
+
+								<div class="item-menu">
+									<h3>Prawns Tom-Yum Soup</h3>
+									<span class="dots"></span>
+									<h3>₹220</h3>
+								</div>
+
+								<div class="item-menu">
+									<h3>Prawns Lemon Coriander Soup</h3>
+									<span class="dots"></span>
+									<h3>₹200</h3>
+								</div>
+
+								<div class="item-menu">
+									<h3> Prawns Burmese Khow Suey</h3>
+									<span class="dots"></span>
+									<h3>₹290</h3>
+								</div>
+							</div>
+						 </div>
+					</div>
+				</div>
+			</div>
+
+			<div class="tab-pane fade" id="salad">
+				<div class="menu-container">
+					<div class="item">
+						<div class="item-name">
+							<h2>Veg</h2>
+						</div>
+
+						<div class="item-body">
+							<div class="item-menu">
+								<h3> Green Salad</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Cottage Cheese Salad</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Caesar Salad</h3>
+								<span class="dots"></span>
+								<h3>₹140</h3>
+							</div>
+
+
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-name">
+							<h2>Non-Veg</h2>
+						</div>
+
+						<div class="item-body">
+							<div class="item-menu">
+								<h3>Roasted Chicken Salad</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Jamaican Chicken Salad</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Chicken & Broccoli Salad</h3>
+								<span class="dots"></span>
+								<h3>₹140</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Chicken & Egg Salad</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Boiled egg Salad</h3>
+								<span class="dots"></span>
+								<h3>₹170</h3>
+							</div>
+
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="tab-pane fade" id="appetizers">
+				<div class="menu-container">
+					<div class="item">
+						<div class="item-name">
+							<h2>Veg</h2>
+						</div>
+
+						<div class="item-body">
+							<div class="item-menu">
+								<h3>Veg Crispy</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Paneer Chilly</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Schezwan Paneer</h3>
+								<span class="dots"></span>
+								<h3>₹140</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Paneer 65</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Hara Bhara Kebab</h3>
+								<span class="dots"></span>
+								<h3>₹170</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Kurmure Kebab</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Cigar Roll</h3>
+								<span class="dots"></span>
+								<h3>₹200</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Paneer Gulati Roll</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Cheese Balls</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Italian Cheese Fingers</h3>
+								<span class="dots"></span>
+								<h3>₹140</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Onion Rings</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Paneer tikka</h3>
+								<span class="dots"></span>
+								<h3>₹170</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Peri Peri Paneer</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Pahadi Paneer Tikka</h3>
+								<span class="dots"></span>
+								<h3>₹200</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Reshmi Paneer Tikka</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Achari Paneeer Tikka</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Lasuni Paneer Tikka</h3>
+								<span class="dots"></span>
+								<h3>₹140</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Cheesy Paneer Tikka</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Bharwan Aloo Tikka</h3>
+								<span class="dots"></span>
+								<h3>₹170</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Angara Soya Chhap</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Pahadi Soya Chhap</h3>
+								<span class="dots"></span>
+								<h3>₹200</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Achari Soya Chhap</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Mashroom Mazedar Tikka</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Mushroom Chilly</h3>
+								<span class="dots"></span>
+								<h3>₹140</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Kung Pao Paneer</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Paneer Satay</h3>
+								<span class="dots"></span>
+								<h3>₹170</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Deghi Paneer</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Manchurian</h3>
+								<span class="dots"></span>
+								<h3>₹200</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Chinese Chopsuey</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Paneer Hongkong</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Humpty Dumpty</h3>
+								<span class="dots"></span>
+								<h3>₹140</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Thai Chilly Potato</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Dahi Ke Sholay</h3>
+								<span class="dots"></span>
+								<h3>₹170</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Veg Platter<br>
+									(4 Pieces Paneer Tikka,4 Pieces Banjara Tikka,3 Pieces Kurmure Kebab, 4 Pieces
+									Mushroom Tikka,4 Pieces Veg Kebab,4 Pieces Lasuni Tikka)</h3>
+								<span class="dots"></span>
+								<h3>₹200</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Spider Roll</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Manchurian</h3>
+								<span class="dots"></span>
+								<h3>₹200</h3>
+							</div>
+							<div class="item-menu">
+								<h3> Stuffed Mushroom Herb & Cheese </h3>
+								<span class="dots"></span>
+								<h3>₹200</h3>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-name">
+							<h2>Non-Veg</h2>
+						</div>
+
+						<div class="item-body">
+
+							<div class="item-menu">
+								<h3>Banjara Chicken Tikka</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Tandoori Chicken (Half/Full)</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Dijon Glazed Chicken Wrap</h3>
+								<span class="dots"></span>
+								<h3>₹140</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Lasuni Tikka</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Kalmi Tikka (Kebab)</h3>
+								<span class="dots"></span>
+								<h3>₹170</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Aslam Chicken</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Chicken Sholay Kebab</h3>
+								<span class="dots"></span>
+								<h3>₹200</h3>
+							</div>
+							<div class="item-menu">
+								<h3>Peshawari chicken</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Bhuna Tikka</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Chicken Satay</h3>
+								<span class="dots"></span>
+								<h3>₹140</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Deghi chicken</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Dynamite Chicken</h3>
+								<span class="dots"></span>
+								<h3>₹170</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Crispy Fried Chicken</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>French Farmas Chicken</h3>
+								<span class="dots"></span>
+								<h3>₹200</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Shami Kebab</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Mutton Tikki</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+
+
+
+							<div class="item-name">
+								<h2>Sea Food</h2>
+							</div>
+
+							<div class="item-body">
+								<div class="item-menu">
+									<h3>Prawns Chilly</h3>
+									<span class="dots"></span>
+									<h3>₹130</h3>
+								</div>
+
+								<div class="item-menu">
+									<h3>Schezwan Prawns</h3>
+									<span class="dots"></span>
+									<h3>₹130</h3>
+								</div>
+
+								<div class="item-menu">
+									<h3>Fire Prawns</h3>
+									<span class="dots"></span>
+									<h3>₹140</h3>
+								</div>
+
+								<div class="item-menu">
+									<h3>Prawns 65</h3>
+									<span class="dots"></span>
+									<h3>₹130</h3>
+								</div>
+
+								<div class="item-menu">
+									<h3>Prawns Koliwada</h3>
+									<span class="dots"></span>
+									<h3>₹170</h3>
+								</div>
+
+								<div class="item-menu">
+									<h3>Butter Garlic Prawns</h3>
+									<span class="dots"></span>
+									<h3>₹130</h3>
+								</div>
+
+								<div class="item-menu">
+									<h3>Amritsari Fish</h3>
+									<span class="dots"></span>
+									<h3>₹200</h3>
+								</div>
+
+
+								<div class="item-menu">
+									<h3>Lasuni Fish</h3>
+									<span class="dots"></span>
+									<h3>₹140</h3>
+								</div>
+
+								<div class="item-menu">
+									<h3>Prawns Tikka</h3>
+									<span class="dots"></span>
+									<h3>₹130</h3>
+								</div>
+
+								<div class="item-menu">
+									<h3>Fish Finger</h3>
+									<span class="dots"></span>
+									<h3>₹170</h3>
+								</div>
+
+								<div class="item-menu">
+									<h3>Golden Fry Prawns</h3>
+									<span class="dots"></span>
+									<h3>₹130</h3>
+								</div>
+
+								<div class="item-menu">
+									<h3> Devil Prawns</h3>
+									<span class="dots"></span>
+									<h3>₹200</h3>
+								</div>
+
+
+								<div class="item-menu">
+									<h3>Dynamite Prawns</h3>
+									<span class="dots"></span>
+									<h3>₹170</h3>
+								</div>
+
+								<div class="item-menu">
+									<h3>Celery Prawns</h3>
+									<span class="dots"></span>
+									<h3>₹130</h3>
+								</div>
+
+								<div class="item-menu">
+									<h3> Sunrise Grilled Prawns</h3>
+									<span class="dots"></span>
+									<h3>₹200</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="tab-pane fade" id="Wraps">
+				<div class="menu-container">
+					<div class="item">
+						<div class="item-name">
+							<h2>Veg</h2>
+						</div>
+
+						<div class="item-body">
+							<div class="item-menu">
+								<h3> Veggie Cheesy Wrap</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Crispy Paneeer Wrap</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Jamaican Veggie Roll</h3>
+								<span class="dots"></span>
+								<h3>₹140</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Schezwan Paneer Wrap</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Peri Peri Paneer Wrap</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+							 
+
+
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-name">
+							<h2>Non-Veg</h2>
+						</div>
+
+						<div class="item-body">
+							<div class="item-menu">
+								<h3>  Butter Chicken Wrap</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Chicken Tikka Wrap</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Schezwan Chicken Wrap</h3>
+								<span class="dots"></span>
+								<h3>₹140</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Egg Wrap</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Fish Wrap</h3>
+								<span class="dots"></span>
+								<h3>₹170</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Prawn Wrap</h3>
+								<span class="dots"></span>
+								<h3>₹170</h3>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+ 
+
+			<div class="tab-pane fade" id="fries">
+				<div class="menu-container">
+					<div class="item">
+						<div class="item-name">
+							<h2>Veg</h2>
+						</div>
+
+						<div class="item-body">
+							<div class="item-menu">
+								<h3>  Aloo Tikki Burger </h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Paneer Tikka Burger</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+							<div class="item-menu">
+								<h3> Salted French Fries </h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Peri Peri French Fries</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Jamaican French Fries</h3>
+								<span class="dots"></span>
+								<h3>₹140</h3>
+							</div>
+							<div class="item-menu">
+								<h3> Cheesy French Fries </h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Herb Garlic French Fries</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-name">
+							<h2>Non-Veg</h2>
+						</div>
+
+						<div class="item-body">
+							<div class="item-menu">
+								<h3> Salted French Fries </h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Peri Peri French Fries</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+							<div class="item-menu">
+								<h3> Salted French Fries </h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Peri Peri French Fries</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+							<div class="item-menu">
+								<h3> Salted French Fries </h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+						 
+							 
+							<div class="item-menu">
+								<h3>Crispy Chicken Strips</h3>
+								<span class="dots"></span>
+								<h3>₹140</h3>
+							</div>
+
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+  
+
+			<div class="tab-pane fade" id="breads">
+				<div class="menu-container">
+					<div class="item">
+						<div class="item-name">
+							<h2>Veg</h2>
+						</div>
+
+						<div class="item-body">
+							<div class="item-menu">
+								<h3> Tandoori Roti</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Tandoori Naan</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Garlic Naan</h3>
+								<span class="dots"></span>
+								<h3>₹140</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Kulcha</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Lachchha Paratha</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Bread Basket</h3>
+								<span class="dots"></span>
+								<h3>₹140</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Paneer Chese Garlic Bread</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Cheese Burst Garlic Bread</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Paneer Tikka Garlic Bread</h3>
+								<span class="dots"></span>
+								<h3>₹140</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3> Bruschetta</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-name">
+							<h2>Non-Veg</h2>
+						</div>
+
+						<div class="item-body">
+							<div class="item-menu">
+								<h3>Stufed Jamaican Chicken Naan</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Stuffed Peri Peri Chicken Naan</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+							<div class="item-menu">
+								<h3>Cheesy Chicken Garlic Bread</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							<div class="item-menu">
+								<h3>Chicken Tikka Garlic Bread</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+							<div class="item-menu">
+								<h3>Chicken & Mushroom Garlic Bread</h3>
+								<span class="dots"></span>
+								<h3>₹130</h3>
+							</div>
+
+							 
+
+							 
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="tab-pane fade" id="sandwiches-pasta">
+				sandwiches and pasta
+			</div>
+
+			<div class="tab-pane fade" id="pizza-noodles">
+				pizza and noodles
+			</div>
+
+			<div class="tab-pane fade" id="sizzlers">
+				sizzlers
+			</div>
+
+			<div class="tab-pane fade" id="Main-Course">
+				Main course
+			</div>
+
+			<div class="tab-pane fade" id="rice">
+				rice
+			</div>
+			<div class="tab-pane fade" id="drinks">
+				drinks
+			</div>
+
+			<div class="tab-pane fade" id="dessert">
+				desserts and accompaniments
+			</div>
+		</div>
+	</section>
+	<!-- our menu section ends -->
+
+
+	<!-- gmaps section start -->
+	<div class="reservation" id="gmaps">
+		<div class="image">
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.1945468556464!2d72.75348351473363!3d21.14465468593561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04d7dfb58a2d7%3A0x42c5f2e3e69454ca!2s1%2F172%2C%20Magdalla%20Police%20Line%2C%20Athwa%2C%20Surat%2C%20Gujarat%20395007!5e0!3m2!1sen!2sin!4v1673876812342!5m2!1sen!2sin"
+				style="border:0;width: 100%;height: 100%;" allowfullscreen="" loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade" width="960px" height="588px"></iframe>
+		</div>
+
+		<div class="form">
+			<h1 class="heading">Directions</h1>
+			<center>
+				<h3 class="sub-heading">check out our place</h3>
+			</center>
+
+			<div class="rightBox">
+				<p>Farm to Table Café & Restro<br>
+					7, Plot 2-A, Napoleon Aster, Near V R Mall,<br>
+					Dumas, Surat - 395007 </p>
+			</div>
+			<div class="rightBox">
+				<p>Time: 11:30 AM to 11:30 PM.<br>
+					Contact no.: 9427250008 / 9427141313<br>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- gmaps section ends -->
+
+	<!-- footer section start -->
+	<footer class="footer" id="footer">
+		<div class="cont">
+			<div class="row">
+				<div class="footer-col">
+					<h4>Order online</h4>
+					<ul>
+						<li><a href="https://www.zomato.com/surat/farm-to-table-cafe-restro-lounge-dumas" target="_blank">Zomato</a>
+						</li>
+						<li><a
+								href="https://www.swiggy.com/restaurants/farm-to-table-cafe-and-restro-piplod-surat-480365" target="_blank">Swiggy</a>
+						</li>
+					</ul>
+				</div>
+				<!-- footer-col ends-->
+				<div class="footer-col">
+
+					<a href="#"> <i class='fa fa-group'></i></a>
+					<h4>Contributed by</h4>
+					<ul>
+						<li><a href="https://www.linkedin.com/in/gungun-panchal-308698238" target="_blank"> Gungun Panchal <i
+									class="fab fa-linkedin-in"></i> </a></li>
+						<li><a href="https://www.linkedin.com/in/himanshu-thakur-602163226" target="_blank">Himanshu Thakur <i
+									class="fab fa-linkedin-in"></i> </a></li>
+						<li><a href="https://www.linkedin.com/in/jaydeep-jayswal-2563ba228" target="_blank">Jaydeep Jaiswal <i class="fab fa-linkedin-in"></i> </a></li>
+						<li><a href="https://www.linkedin.com/in/akansha-verma-a8b135256" target="_blank">Akansha Verma <i
+									class="fab fa-linkedin-in"></i> </a></li>
+					</ul>
+				</div>
+
+
+
+				<div class="footer-col">
+					<h4>Contact us/follow us</h4>
+					<div class="social-links">
+						<a href="https://www.instagram.com/farmtotable.surat/?igshid=OGQ2MjdiOTE="><i
+								class="fab fa-instagram"></i></a>
+					</div>
+					<h4>
+						About Us
+					</h4>
+					<p style="font-size: 1.3rem; color: #ffffff;">
+						We are an open air garden restaurant serving you Chinese , Indian & Italian in a Green lush
+						ambiance with comfortable seating in the posh area of Vesu ,Surat
+					</p>
+				</div>
+
+				<div class="footer-col">
+					<h4>Scan this QR code to pay</h4>
+					<img src="QRCode.jpeg" alt="Image of QR Code" border="0" id="QRimg">
+				</div>
+			</div>
+
+
+		</div>
+		</div>
+	</footer>
+	<!-- footer section end -->
+
+	<!-- jump to top -->
+
+	<a href="#"><button class="topbtn"><i class="fa-solid fa-angle-up"></i></button></a>
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Swiper JS -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper(".home-slider", {
+			spaceBetween: 30,
+			centeredSlides: true,
+			autoplay: {
+				delay: 7500,
+				disableOnInteraction: false,
+			},
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
+			},
+			loop: true,
+		});
+	</script>
+	<script type="text/javascript">
+		let menu = document.querySelector('#menu');
+		let navbar = document.querySelector('.navbar');
+
+		menu.onclick = () => {
+			menu.classList.toggle('fa-times');
+			navbar.classList.toggle('active');
+		}
+	</script>
+
+	<!--javascipt for the reel-->
+
+	<!-- video2 javascript  -->
+	<script type="text/javascipt" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+
+	<script type="text/javascript">
+		var myvideo = document.getElementById("video2");
+		function playpause() {
+			if (myvideo.paused) {
+				myvideo.play();
+				document.getElementById("playpause_img").style.backgroundImage = "none";
+				// document.getElementById("playpause_img2").style.backgroundImage=URL('playbtn.png');
+
+
+			}
+			else {
+				myvideo.pause();
+				//url ma capital letter try kari jo
+				document.getElementById("playpause_img").style.backgroundImage = "url('playbtn.png')";
+				// document.getElementById("playpause_img2").style.backgroundImage=URL('playbtn.png');
+			}
+		}
+	</script>
+
+	<!-- JavaScript for Bootstrap-->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
