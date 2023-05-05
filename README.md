@@ -1,6 +1,6 @@
 # FarmToTable
 A website for a real cafe in Surat
-file:///C:/Users/Dell/Desktop/GWOC/farmToTable/Farm-to-Table-Restaurant/index.html
+<!-- file:///C:/Users/Dell/Desktop/GWOC/farmToTable/Farm-to-Table-Restaurant/index.html -->
 As a team of four developers, we had the pleasure of working on the "FarmToTable" project, which was a truly collaborative effort that showcased our combined talents and expertise.
 
 Together, we used our collective knowledge of HTML, CSS, JavaScript, and React to create a stunning platform that connected farmers directly with consumers in a sustainable and ethical way. We were each assigned different tasks and worked diligently to ensure that the project met our high standards for functionality and user experience.
